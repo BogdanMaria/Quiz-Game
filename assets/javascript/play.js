@@ -7,7 +7,7 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 
-let questions = {
+let questions = [
     {
     question: "What is the capital of France?",
     choice1: "Madrid",
@@ -88,4 +88,4 @@ let questions = {
     choice4: "NaCl",
     answer: 1
     },
-}
+]
