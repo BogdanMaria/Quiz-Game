@@ -73,6 +73,8 @@ h3 {
     display: none;
 }
 
+/*Buttons*/
+
 .btn {
     font-size: 1.8rem;
     padding: 1rem 0;
@@ -88,4 +90,31 @@ h3 {
 .btn:hover {
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0 rgba(63, 19, 105, 0.767);
+}
+
+/*Play page*/
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid rgba(137, 43, 226, 0.301);
+    background-color: white;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(63, 19, 105, 0.767);
+
+}
+
+.choice-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: blueviolet;
+    color: white;
+}
+
+.choice-text {
+    padding: 1.5rem;
 }
