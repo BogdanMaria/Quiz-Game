@@ -1,6 +1,7 @@
 const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
 const questionCounterText = document.getElementById("questionCounter");
+const scoreText = document.getElementById("score");
 
 let currentQuestion = {};
 let acceptAnswer = false;
@@ -211,7 +212,7 @@ choices.forEach(choice => {
 
         if (classToAplly == "correct") {
             incrementScore(correctBonus);
-        }
+        };
         selectedChoice.parentElement.classList.add(classToAplly);
 
         setTimeout(() => {
@@ -224,7 +225,7 @@ choices.forEach(choice => {
 });
 
 function incrementScore(num) {
-    score +=num;
+    score += num;
     scoreText.innerText = score;
 }
 startGame();
