@@ -196,4 +196,9 @@ function getNewQuestion() {
     acceptAnswer = true;
 }
 
+choices.forEach( choice => {
+    choice.addEventListener("click", e =>{
+        console.log(e.target)
+    });
+});
 startGame();
