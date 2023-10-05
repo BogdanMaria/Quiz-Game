@@ -188,7 +188,8 @@ function getNewQuestion() {
         return window.location.assign("/end.html");
     }
     questionCounter++;
-    questionCounterText.innerText = `${questionCounter}/${maxQuestions}`
+    questionCounterText.innerText = `${questionCounter}/${maxQuestions}`;
+
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
     question.innerText = currentQuestion.question;
@@ -207,6 +208,10 @@ choices.forEach(choice => {
         const selectedAnswer = selectedChoice.dataset["number"];
 
         const classToAplly = selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
+
+        if (classToAplly == "correct") {
+            incrementScore(correctBonus);
+        }
         selectedChoice.parentElement.classList.add(classToAplly);
 
         setTimeout(() => {
@@ -217,4 +222,9 @@ choices.forEach(choice => {
 
     });
 });
+
+function incrementScore(num) {
+    score +=num;
+    scoreText.innerText = score;
+}
 startGame();
