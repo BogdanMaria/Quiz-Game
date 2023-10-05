@@ -203,7 +203,9 @@ choices.forEach(choice => {
     choice.addEventListener("click", e => {
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset["number"];
-        console.log(selectedAnswer);
+
+        const classToAplly = selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
+        console.log(classToAplly);
         getNewQuestion();
     });
 });
