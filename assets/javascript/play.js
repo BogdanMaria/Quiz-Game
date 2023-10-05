@@ -175,3 +175,11 @@ let questions = [
 const correctBonus = 10;
 const maxQuestions = 5;
 
+startGame = () => {
+    questionCounter = 0;
+    score = 0;
+    availableQuestions = [...questions];
+    console.log(availableQuestions);
+};
+
+startGame();
