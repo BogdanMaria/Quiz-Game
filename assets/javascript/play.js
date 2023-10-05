@@ -184,7 +184,7 @@ function startGame() {
 
 function getNewQuestion() {
     if (availableQuestions.length === 0 || questionCounter >= maxQuestions) {
-       return window.location.assign("/end.html");
+        return window.location.assign("/end.html");
     }
     questionCounter++;
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
@@ -206,6 +206,7 @@ choices.forEach(choice => {
 
         const classToAplly = selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
         selectedChoice.parentElement.classList.add(classToAplly);
+        selectedChoice.parentElement.classList.remove(classToAplly);
         console.log(classToAplly);
         getNewQuestion();
     });
