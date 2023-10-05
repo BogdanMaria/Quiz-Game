@@ -169,3 +169,9 @@ let questions = [
         answer: 1
     }
 ]
+
+//Constants
+
+const correctBonus = 10;
+const maxQuestions = 5;
+
