@@ -206,9 +206,13 @@ choices.forEach(choice => {
 
         const classToAplly = selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
         selectedChoice.parentElement.classList.add(classToAplly);
-        selectedChoice.parentElement.classList.remove(classToAplly);
-        console.log(classToAplly);
-        getNewQuestion();
+
+        setTimeout(() => {
+            selectedChoice.parentElement.classList.remove(classToAplly);
+            getNewQuestion();
+        }, 1000);
+
+
     });
 });
 startGame();
