@@ -205,6 +205,7 @@ choices.forEach(choice => {
         const selectedAnswer = selectedChoice.dataset["number"];
 
         const classToAplly = selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
+        selectedChoice.parentElement.classList.add(classToAplly);
         console.log(classToAplly);
         getNewQuestion();
     });
