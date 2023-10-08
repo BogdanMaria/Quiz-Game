@@ -216,3 +216,21 @@ Mobile
 Desktop
 
 ![High Score Desktop](readme-folder/high-desk.png)
+
+# Credits
+
+## Content 
+The questions used in the quiz game have been generated using [Chat GPT](https://chat.openai.com/auth/login).
+
+## Media
+The favicon.ico has been vreated by me.
+
+## Code
+
+JSON had been studied using [W3Schools](https://www.w3schools.com/js/js_json_intro.asp)
+
+# Acknowledgements
+
+I would like to thank my mentor, Ronan McClelland, for his guidance,  moral support, inspiration and invaluable advice.
+
+Thanks to Slack Community for answering all my questions before I asked  them.
