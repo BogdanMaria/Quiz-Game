@@ -51,3 +51,19 @@ Has been used to create the box shadows.
 Has been used for the headings.
 
 ### Wireframes
+
+#### Home
+
+![Home wifreframe](readme-folder/home.png)
+
+#### Questions and answers
+
+![Questions and answers wireframe](readme-folder/playW.png)
+
+#### Your Score and name
+
+![Score and username wireframe](readme-folder/score.png)
+
+#### High Scores
+
+![High score wireframe](readme-folder/highscores.png)
