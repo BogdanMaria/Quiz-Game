@@ -164,3 +164,6 @@ on multiple devices:
   - Dell Inspirion
 
 Certain minor differences were detected, but no issues affected the overall performance.
+
+## Automated Testing
+
