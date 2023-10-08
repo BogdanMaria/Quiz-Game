@@ -27,3 +27,27 @@ The live website can be viewed here [QUIZ GAME](https://bogdanmaria.github.io/Qu
 - I want to compare my results with other players to see how I am performing.
 
 ### All users want to be able to access and comfortably view the website on mobile devices
+
+## Design
+
+### Typography
+
+[Young Serif](https://fonts.google.com/specimen/Young+Serif?query=young) was chosen due to it being neutral, soft and easy to read even on smaller screens.
+
+
+### Colour Scheme
+![Palette](readme-folder/color.png)
+
+#### 16151C
+Has been used to display the Questions and answers.
+
+#### F0F8FF
+Has been used for background.
+
+#### D2BAED
+Has been used to create the box shadows.
+
+#### 8A2BE2
+Has been used for the headings.
+
+### Wireframes
