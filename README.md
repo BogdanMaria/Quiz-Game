@@ -167,3 +167,52 @@ Certain minor differences were detected, but no issues affected the overall perf
 
 ## Automated Testing
 
+1. [W3 Markup Validation](https://validator.w3.org/) - HTML Validation
+
+All pages were run through HTML Validator. No errors were detected.
+
+2. [W3 Jigsaw](https://jigsaw.w3.org/css-validator/) - CSS Validation
+
+CSS Stylesheet was run through CSS Validator. No errors were detected.
+
+3. [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
+
+#### Home Page
+
+Mobile
+
+![Home Mobile](readme-folder/home-mob.png)
+
+Desktop
+
+![Home Desktop](readme-folder/home-desk.png)
+
+#### Play
+
+Mobile
+
+![Play Mobile](readme-folder/play-mob.png)
+
+Desktop
+
+![Play Desktop](readme-folder/play-desk.png)
+
+#### Username
+
+Mobile
+
+![Username Mobile](readme-folder/username-mob.png)
+
+Desktop
+
+![Username Desktop](readme-folder/username-desk.png)
+
+#### High Scores
+
+Mobile
+
+![High Score Mobile](readme-folder/high-mob.png)
+
+Desktop
+
+![High Score Desktop](readme-folder/high-desk.png)
