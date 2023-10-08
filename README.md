@@ -67,3 +67,28 @@ Has been used for the headings.
 #### High Scores
 
 ![High score wireframe](readme-folder/highscores.png)
+
+## Features
+
+### Main Page
+
+On main page you can select to play the game or see the high scores.
+![Main page](readme-folder/main-page.png)
+
+### Play Page
+
+On the play page you have the progress of the game, score, questions and multiple choice answers.
+![Play page](readme-folder/play-page.png)
+
+### Score and username 
+
+At the end of the game you can see your score, enter your username for the high score board and save, play again or go to the home page
+![Username Page](readme-folder/username-page.png)
+
+### High scores
+
+On the high scores page you will see the top five scores and usernames.
+![High scores page](readme-folder/highscore-page.png)
+
+All the buttons have a shadow when you hover over them and change the cursor. When a correct answer is selected the answer turns green and the score will go up. When a incorrect answer is selected the answer turns red. The progress will show what question you are on out of 5. At the end you can not press save unless there is a username typed.
+
