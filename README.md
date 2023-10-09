@@ -227,7 +227,8 @@ The favicon.ico has been vreated by me.
 
 ## Code
 
-JSON had been studied using [W3Schools](https://www.w3schools.com/js/js_json_intro.asp)
+JSON had been studied using [W3Schools](https://www.w3schools.com/js/js_json_intro.asp).
+Local storage had been studied using [Logrocket Blog](https://blog.logrocket.com/localstorage-javascript-complete-guide/).
 
 # Acknowledgements
 
